@@ -57,7 +57,7 @@ public class Varasto {
         {
             saldo = saldo + maara;          // ihan suoraan sellaisinaan
         } else {
-            saldo = tilavuus/2;  // täyteen ja ylimäärä hukkaan!
+            saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
         }
     }
 
