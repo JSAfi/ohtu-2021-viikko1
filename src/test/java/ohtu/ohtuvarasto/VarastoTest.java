@@ -98,7 +98,7 @@ public class VarastoTest {
         Varasto varasto2 = new Varasto(10, 1);
         varasto2.lisaaVarastoon(-1);
 
-        // negatiivisen lisäyksen teko ei tee mitään 
+        // negatiivisen lisäyksen teko ei tee mitään
         assertEquals(1, varasto2.getSaldo(), vertailuTarkkuus);
     }
 
