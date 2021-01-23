@@ -1,1 +1,1 @@
-Tiedosto 1 alikansiossa 1 
+Tiedosto 1 alikansiossa 1 jota muutettu kun kokeillaan git add -p
