@@ -125,7 +125,7 @@ public class VarastoTest {
     @Test
     public void testaaToString() {
         Varasto varasto2 = new Varasto(10,10);
-        String vertailuStringi = "saldo = 10.0, vielä tilaa 0.0 + +++";
+        String vertailuStringi = "saldo = 10.0, vielä tilaa 0.0";
 
         assertEquals(vertailuStringi, varasto2.toString());
     }
